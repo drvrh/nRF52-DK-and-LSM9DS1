@@ -8,15 +8,15 @@ This is redefined main.c from SDK folder: $SDK/examples/peripheral/twi_sensor/
 
 * example code from STM is: https://github.com/STMicroelectronics/STMems_Standard_C_drivers/tree/master/lsm9ds1_STdC/example
 
-## Note for Segger studio: 
+### Note for Segger studio: 
 
 printf should be enabled in: right mouse *click on project* > *Options* > choose *Common* > in search box type "float" > change *Printf Floating Point Supported* from "No" to "Float".
 
-## Hardware required
+### Hardware required
 * nRF52 DK (PCA10056)
 * LSM9DS1 module steval-mki159v1 like: https://www.st.com/en/evaluation-tools/steval-mki159v1.html
 
-## Connect modul and nRF52
+### Connect modul and nRF52
 |JP1 on STEVAL   |  nRF52 DK|
 |-------------   |------------|
 |1, 2|            VCC  |
