@@ -17,9 +17,9 @@ printf should be enabled in: right mouse *click on project* > *Options* > choose
 * LSM9DS1 module steval-mki159v1 like: https://www.st.com/en/evaluation-tools/steval-mki159v1.html
 
 ## Connect modul and nRF52
-JP1 on STEVAL     nRF52 DK
--------------   ------------
-1, 2            VCC  
-21 (SDA)        0,26  
-20 (SCL)        0,27  
+|JP1 on STEVAL   |  nRF52 DK|
+|-------------   |------------|
+|1, 2|            VCC  |
+|21 (SDA) |       0,26  |
+|20 (SCL) |       0,27  |
 
