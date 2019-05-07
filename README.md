@@ -10,5 +10,7 @@ This is redefined main.c from SDK folder: $SDK/examples/peripheral/twi_sensor/
 
 ## Note for Segger studio: 
 
-printf should be enabled in: right mouse click on project > Options > choose Common > in search box type "float" > change Printf Floating Point Supported from No to float.
+printf should be enabled in: right mouse *click on project* > *Options* > choose *Common* > in search box type "float" > change *Printf Floating Point Supported* from "No" to "Float".
+
+
 
