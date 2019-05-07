@@ -155,8 +155,9 @@ int main(void)
     APP_ERROR_CHECK(NRF_LOG_INIT(NULL));
     NRF_LOG_DEFAULT_BACKENDS_INIT();
 
-    NRF_LOG_INFO("\r\nTWI device example started.");
-    NRF_LOG_FLUSH();
+    //NRF_LOG_INFO("\r\nTWI device example started.\r\n");
+    //NRF_LOG_FLUSH();
+    printf("\r\nTWI device example started.\r\n");
     twi_init();
 
     /*///*****Test code for testing module
@@ -196,11 +197,12 @@ int main(void)
     if (whoamI.imu != LSM9DS1_IMU_ID || whoamI.mag != LSM9DS1_MAG_ID){
       while(1){
         /* manage here device not found */
-        NRF_LOG_INFO("\r\nCannot find the LSM9DS1.");
-        NRF_LOG_FLUSH();
+        //NRF_LOG_INFO("\r\nCannot find the LSM9DS1.********\r\n");
+        //NRF_LOG_FLUSH();
+        printf("\r\nCannot find the LSM9DS1.********\r\n");
       }
     }
-    printf("Who am I register [IMU]: 0x%x [MAG]: 0x%x", whoamI.imu, whoamI.mag);   
+    printf("Who am I register [IMU]: 0x%x [MAG]: 0x%x \r\n", whoamI.imu, whoamI.mag);   
 
     /* Restore default configuration */
     lsm9ds1_dev_reset_set(&dev_ctx_mag, &dev_ctx_imu, PROPERTY_ENABLE);
