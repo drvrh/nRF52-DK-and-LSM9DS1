@@ -22,4 +22,5 @@ printf should be enabled in: right mouse *click on project* > *Options* > choose
 |1, 2|            VCC  |
 |21 (SDA) |       0,26  |
 |20 (SCL) |       0,27  |
+|GND|       GND  |
 
