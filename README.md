@@ -19,8 +19,8 @@ printf should be enabled in: right mouse *click on project* > *Options* > choose
 ### Connect modul and nRF52
 |JP1 on STEVAL   |  nRF52 DK|
 |-------------   |------------|
-|1, 2|            VCC  |
-|21 (SDA) |       0,26  |
-|20 (SCL) |       0,27  |
+|1, 2|            VDD  |
+|21 (SDA) |       P0.26  |
+|20 (SCL) |       P0.27  |
 |GND|       GND  |
 
